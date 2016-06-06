@@ -1,0 +1,289 @@
+*{
+	font-family: Open Sans;
+	font-weight: 400;
+}
+/* ENCABEZADO */
+.hero{
+	background-image: url("../img/background/hero.jpg");
+	background-size: cover;
+	/*height: 670px;*/
+	margin: 0 0 0 -70px;
+}
+div.hero2{
+   	background-color: black;
+  	opacity: 0.6;
+  	filter: alpha(opacity=60);
+  	height: 670px;
+}
+.lista{
+	display: inline;
+	list-style: none;
+	padding: 10px;
+}
+.none {
+	text-decoration: none;
+}
+a:hover {
+	color: #32C5FF;
+}
+.primes{
+	font-size: 30px;
+}
+.text{
+	font-size: 55px;
+	color: white;
+	padding-top: 15%;
+}
+.pt-20p{
+	padding-top: 20px;
+}
+.btn{
+	color: white;
+	font-weight: 600;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+.btn-black{
+	background-color: #2E2E2E;
+	border: 1px solid black;
+}
+.btn-white{
+	opacity: 0.7;
+	border: 1px solid white;
+	margin: 30px;
+}
+/* Seccion con iconos y texto */
+.pb-10{
+	padding-bottom: 10%;
+}
+.ml{
+	margin-left: 10%;
+}
+/* Imagen */
+.laptop{
+	width: 90%;
+}
+.grisf{
+	color: #424242;
+}
+.small{
+	font-size: small;
+}
+/* Portafolio */
+.btn-azul{
+	background-color: #0dc0c0;
+	color: white;
+	font-weight: 600;
+	padding: 10px 20px;
+	text-decoration: none;	
+}
+.btn-blanco{
+	background-color: #E6E6E6;
+	color: black;
+	font-weight: 600;
+	padding: 10px 20px;
+	text-decoration: none;	
+}
+.photo{
+	background-color: white;
+	padding: 25px 20px 20px;
+	box-shadow: 10px -8px 22px -11px rgba(133,131,133,1);
+
+}
+.photo2{
+	position: relative;
+	bottom: 10px;
+}
+/*milc*/
+#back{
+	background-image: url("../img/background/city.jpg");
+	background-repeat: no-repeat;
+	background-position: static;
+	background-size: 100%;
+	height: 450px;
+	-webkit-filter: brightness(50%);
+}
+.txt-bck{
+	color: white;
+	text-align: center;
+	margin-top: 80px;
+	font-size: xx-large;
+
+}
+.btn-bck{
+	height: 65px;
+	width: 224px;
+	margin-left: 449px;
+	margin-top: 75px;
+	font-size: x-large;
+	border-style: none;
+	background-color: white;
+	opacity: 0.5;
+	
+}
+.sub-title{
+	margin-top: 25px;
+	text-align: center;
+	font-size: 25px;
+}
+.tltle-sec {
+	font-family: sans-serif;
+	margin-top: 40px;
+	text-align: center;
+}
+.cont{
+	width: 300px;
+	height: 600px;
+	background-color: white;
+	padding-left: 25px;
+	padding-top: 30px;
+	padding-right: 25px;
+	margin-top: 50px;
+	margin-bottom: 90px;
+}
+.cont-dentro{
+	padding-top: 20px;
+	font-size: 18px;
+	text-align: center;
+	width: 250px;
+	height: 80px;
+}
+.gris{
+	background-color:#1D1F20;
+}
+.txt-cont{
+	text-align: center;
+}
+.txt-cont p{
+	margin:10px;
+}
+.purchase{
+	background-color:#1D1F20;
+	height: 40px;
+	width: 100px;
+	margin-left: 70px;
+	margin-top: 40px;
+	font-size: 18px;
+	color: white;
+}
+span{
+	font-weight: bolder;
+	font-size: 26px;
+}
+.verde{
+	background-color: #15eedd;
+}
+.costo-img{
+	border-radius: 100%;
+	height: 100px;
+	width: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.customer{
+	text-align: center;
+	margin-top: 30px;
+	font-size: 25px;
+}
+.contact{
+	background-image: url("../img/background/contactus.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 180%;
+	-webkit-filter: brightness(-90%) contrast (90%);
+	
+	/*width: 100%;
+	height: 600px;
+	margin-bottom: 40px;*/
+}
+.txt-contac{
+	text-align: center;
+	font-family:Arial;
+	font-size: 18px;
+	margin-top: 15px;
+	margin-right: 200px;
+}
+.text-contac{
+	color: #E0DCDC;
+}
+
+.send{
+	margin: 18px;
+	font-family: Arial;
+	font-size:20px;
+}
+textarea{
+	height: 180px;
+	width: 500px;
+	background:none; 
+	font-size: 20px;
+	opacity: 0.4;
+	border:2px #888 solid;
+
+}
+input { 
+	font-size: 20px;
+	display: block;
+	margin-bottom: 15px;
+	width: 500px;
+	height: 30px;
+	opacity: 0.2;
+}
+.submit{
+	background-color: #15eedd;
+	height: 60px;
+	width: 150px;
+	font-size: 20px;
+	border-style: none;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+/*CODIGO PARA FORMULARIOS DESPUES PUEDE SERVIR
+input[type="text"] { margin: 10px 0; background: #444; border: 1px solid #ccc; color: #777; display: block; max-width: 100%; outline: none; padding: 7px 8px; }
+
+input[type="submit"] { margin: 10px 0; background: #0088B2; color: #fff; padding: 8px 14px; font-weight: bold; display: inline-block; border: none; cursor: pointer; }
+
+input[type="submit"]:hover { background: #444; }*/
+.text-about{
+	font-size: 20px;
+	text-align: left;
+	margin-left: 150px;
+	margin-top: 18px;
+	font-family: Arial;
+}
+ p.text-about{
+	font-size: medium;
+}
+i{
+	margin-top: 50px;
+	
+}
+/*p i {
+	display: inline;
+}*/
+.text-about{
+	color: #E0DCDC;
+}
+.follow h2{
+	text-align: center;
+	font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 33px;
+} 
+.follow p{
+	text-align: center;
+}
+
+.ico-follow{
+	text-align: center;
+	margin-top: 40px;
+
+}
+footer{
+	background-color:#1D1F20;
+	margin-top: 60px;
+}
+footer p{
+	margin-left: 510px;
+	margin-bottom: 20px;
+}
